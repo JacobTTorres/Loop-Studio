@@ -1,0 +1,21 @@
+.headerContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.headerContent {
+  height: 100%;
+  width: 35%;
+  padding: 35px 115px 25px 40px;
+  border: 2px solid var(--White);
+  margin: 4rem 0px 9rem 9.7rem
+}
+
+.header {
+  color: var(--White);
+  font-family: var(--JosefinSans);
+  font-weight: 300;
+  font-size: 71px;
+  margin: 0;
+  line-height: 4.5rem
+}
