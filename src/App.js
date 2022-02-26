@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Leader from "./components/leader/Leader";
+import Creations from "./components/creations/Creations"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </div>
         <div className="mainContent">
           <Leader />
+          <Creations />
         </div>
       </div>
     </div>
