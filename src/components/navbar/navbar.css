@@ -32,11 +32,23 @@
   flex-direction: row;
 }
 
-.navbarLinkAbout,.navbarLinkCareers,.navbarLinkEvents,.navbarLinkProducts,.navbarLinkSupport {
+.navbarLinkAbout,
+.navbarLinkCareers,
+.navbarLinkEvents,
+.navbarLinkProducts,
+.navbarLinkSupport {
   margin: 0;
   color: var(--White);
   font-size: 15px;
   font-family: var(--Alata);
+}
+
+.navbarLinkAbout:hover,
+.navbarLinkCareers:hover,
+.navbarLinkEvents:hover,
+.navbarLinkProducts:hover,
+.navbarLinkSupport:hover {
+  cursor: pointer;
 }
 
 .navbarLinkAbout:hover::after {
@@ -45,12 +57,8 @@
   height: 2px;
   width: 1.25%;
   background-color: var(--White);
-  top: 5vw;
-  right: 39.5vw;
-}
-
-.navbarLinkAbout:hover,.navbarLinkCareers:hover,.navbarLinkEvents:hover,.navbarLinkProducts:hover,.navbarLinkSupport:hover {
-  cursor: pointer;
+  top: 97px;
+  right: 752px;
 }
 
 .navbarLinkCareers:hover::after {
@@ -59,8 +67,8 @@
   height: 2px;
   width: 1.25%;
   background-color: var(--White);
-  top: 5vw;
-  right: 35vw;
+  top: 97px;
+  right: 667px;
   cursor: pointer;
 }
 
@@ -70,8 +78,8 @@
   height: 2px;
   width: 1.25%;
   background-color: var(--White);
-  top: 5vw;
-  right: 30.6vw;
+  top: 97px;
+  right: 585px;
   cursor: pointer;
 }
 
@@ -81,8 +89,8 @@
   height: 2px;
   width: 1.25%;
   background-color: var(--White);
-  top: 5vw;
-  right: 26.25vw;
+  top: 97px;
+  right: 496px;
   cursor: pointer;
 }
 
@@ -92,7 +100,7 @@
   height: 2px;
   width: 1.25%;
   background-color: var(--White);
-  top: 5vw;
-  right: 21.15vw;
+  top: 97px;
+  right:403px;
   cursor: pointer;
 }
