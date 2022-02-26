@@ -1,14 +1,5 @@
 import "./creations.css";
 
-import Earth from "../../images/desktop/image-deep-earth.jpg";
-import Arcade from "../../images/desktop/image-night-arcade.jpg";
-import Soccer from "../../images/desktop/image-soccer-team.jpg";
-import Grid from "../../images/desktop/image-grid.jpg";
-import Above from "../../images/desktop/image-from-above.jpg";
-import Borealis from "../../images/desktop/image-pocket-borealis.jpg";
-import Curiosity from "../../images/desktop/image-curiosity.jpg";
-import Fisheye from "../../images/desktop/image-fisheye.jpg";
-
 export default function Creations() {
   return (
     <section className="creationContainer">
