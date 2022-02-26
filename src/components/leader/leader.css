@@ -1,0 +1,40 @@
+.leaderContainer {
+  height: 810px;
+}
+
+.leaderContent {
+  height: 100%;
+  width: 100%;
+}
+
+.leaderBackdrop {
+  position: absolute;
+  top: 800px;
+  left: 380px;
+}
+
+.leaderInfoContaienr {
+  position: absolute;
+  background-color: var(--White);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  top: 980px;
+  padding: 5rem 0 5rem 7rem;
+}
+
+.leaderHeader {
+  font-family: var(--JosefinSans);
+  font-weight: 300;
+  font-size: 50px;
+  width: 35rem;
+}
+
+.leaderInfo {
+  width: 23.9vw;
+  font-family: var(--Alata);
+  color: var(--darkGray);
+  font-size: 15px;
+  line-height: 25px;
+}
