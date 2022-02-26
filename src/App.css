@@ -24,3 +24,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.mainContent{
+  background-color: var(--White);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

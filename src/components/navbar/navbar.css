@@ -69,7 +69,6 @@
   background-color: var(--White);
   top: 97px;
   right: 667px;
-  cursor: pointer;
 }
 
 .navbarLinkEvents:hover::after {
@@ -80,7 +79,6 @@
   background-color: var(--White);
   top: 97px;
   right: 585px;
-  cursor: pointer;
 }
 
 .navbarLinkProducts:hover::after {
@@ -91,7 +89,6 @@
   background-color: var(--White);
   top: 97px;
   right: 496px;
-  cursor: pointer;
 }
 
 .navbarLinkSupport:hover::after {
@@ -102,5 +99,4 @@
   background-color: var(--White);
   top: 97px;
   right:403px;
-  cursor: pointer;
 }

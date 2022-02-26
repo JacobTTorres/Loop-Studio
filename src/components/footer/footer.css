@@ -1,0 +1,180 @@
+.footerContainer {
+  background-color: var(--black);
+  width: var(--desktop);
+  height: 100%;
+}
+
+.footerContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.leftFooter,
+.rightFooter {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.leftFooter {
+  align-items: flex-start;
+  color: white;
+  padding: 50px 0 50px 155px;
+}
+
+.rightFooter {
+  align-items: flex-end;
+  color: var(--darkGray);
+  padding: 50px 155px 50px 0;
+}
+
+.footerLogo {
+  height: 24px;
+  width: 144px;
+  margin-bottom: 25px;
+}
+
+.footerLinksContainer {
+  height: 100%;
+  width: 68%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.footerLinkAbout,
+.footerLinkCareers,
+.footerLinkEvents,
+.footerLinkProducts,
+.footerLinkSupport {
+  margin: 0;
+  color: var(--White);
+  font-size: 15px;
+  font-family: var(--Alata);
+}
+
+.footerLinkAbout:hover,
+.footerLinkCareers:hover,
+.footerLinkEvents:hover,
+.footerLinkProducts:hover,
+.footerLinkSupport:hover {
+  cursor: pointer;
+}
+
+.footerLinkAbout:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1.25%;
+  background-color: var(--White);
+  top: 2945px;
+  right: 1486px;
+}
+
+.footerLinkCareers:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1.25%;
+  background-color: var(--White);
+  top: 2945px;
+  right: 1405px;
+}
+
+.footerLinkEvents:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1.25%;
+  background-color: var(--White);
+  top: 2945px;
+  right: 1325px;
+}
+
+.footerLinkProducts:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1.25%;
+  background-color: var(--White);
+  top: 2945px;
+  right: 1240px;
+}
+
+.footerLinkSupport:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1.25%;
+  background-color: var(--White);
+  top: 2945px;
+  right: 1150px;
+}
+
+.socialMediaLinkContainer {
+  height: 100%;
+  width: 27%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: -5px
+}
+
+.facebookContainer:hover,
+.twitterContainer:hover,
+.pinterestContainer:hover,
+.instagramContainer:hover {
+  cursor: pointer;
+}
+
+.facebookContainer:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1.25%;
+  background-color: var(--White);
+  top: 2900px;
+  right: 518px;
+}
+
+.twitterContainer:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1.25%;
+  background-color: var(--White);
+  top: 2900px;
+  right: 475px;
+}
+
+.pinterestContainer:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1.25%;
+  background-color: var(--White);
+  top: 2900px;
+  right: 432px;
+}
+
+.instagramContainer:hover::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1.25%;
+  background-color: var(--White);
+  top: 2900px;
+  right: 389px;
+}
+
+.copyright {
+  margin-top: 25px;
+}
