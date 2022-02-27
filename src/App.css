@@ -23,6 +23,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .mainContent{
@@ -31,4 +35,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 1200px) {
+  .App{
+    width: 100%
+  }
 }

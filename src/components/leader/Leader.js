@@ -7,7 +7,7 @@ export default function Leader() {
     <section className="leaderContainer">
       <div className="leaderContent">
         <div className="leaderBackdrop">
-          <img src={Interactive} alt="interactive" />
+          <img src={Interactive} alt="interactive" className="backdrop"/>
         </div>
         <div className="leaderInfoContaienr">
           <h1 className="leaderHeader">THE LEADER IN INTERACTIVE VR</h1>

@@ -14,7 +14,14 @@
   right: -169px;
 }
 
+.backdrop {
+  width: 731px;
+  height: 500px;
+}
+
 .leaderInfoContaienr {
+  height: 413px;
+  width: 464px;
   position: absolute;
   background-color: var(--White);
   display: flex;
@@ -23,7 +30,7 @@
   flex-direction: column;
   right: -580px;
   top: 300px;
-  padding: 5rem 0 5rem 7rem;
+  padding: 5rem 0 0 7rem;
 }
 
 .leaderHeader {
@@ -39,4 +46,29 @@
   color: var(--darkGray);
   font-size: 15px;
   line-height: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .backdrop {
+    width: 50vw;
+    height: 37vw;
+  }
+  .leaderBackdrop{
+    top: 140px;
+    right: -100px;
+  }
+  .leaderInfoContaienr {
+    width: 36vw;
+    height: 25vw;
+    right: -500px;
+    top: 300px;
+  }
+  .leaderHeader {
+    font-size: 3vw;
+    width: 25vw;
+    margin-bottom: 5px
+  }
+  .leaderInfo{
+    font-size: 1vw
+  }
 }

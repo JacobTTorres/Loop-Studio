@@ -1,7 +1,11 @@
 .creationContainer {
   background-color: var(--White);
-  width: 1132px;
+  width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .creationHeaderContainer {
@@ -53,7 +57,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-bottom: 30px;
+  margin:0 45px 30px 45px;
 }
 
 .galloryImgEarth,
@@ -144,4 +148,19 @@
     url("../../images/desktop/image-fisheye.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+  .galloryImgEarth,
+  .galloryImgArcade,
+  .galloryImgSoccer,
+  .galloryImgGrid,
+  .galloryImgAbove,
+  .galloryImgBorealis,
+  .galloryImgCuriosity,
+  .galloryImgFisheye {
+    width: 18vw;
+    height: 40vw;
+  }
+
 }

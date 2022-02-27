@@ -8,7 +8,7 @@
   width: 35%;
   padding: 35px 115px 25px 40px;
   border: 2px solid var(--White);
-  margin: 4rem 0px 9rem 9.7rem
+  margin: 4rem 0px 9rem 9.7rem;
 }
 
 .header {
@@ -17,5 +17,12 @@
   font-weight: 300;
   font-size: 71px;
   margin: 0;
-  line-height: 4.5rem
+  line-height: 4.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .headerContent{
+    margin: 1rem 0 5rem 6.5rem
+  }
+
 }

@@ -6,6 +6,7 @@
 
 .footerContent {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,9 +75,9 @@
   height: 2px;
   width: 70%;
   background-color: var(--White);
-  bottom:-4px;
-  left:6px;
-  right:0;
+  bottom: -4px;
+  left: 6px;
+  right: 0;
 }
 
 .footerLinkCareers:hover::after {
@@ -85,8 +86,8 @@
   height: 2px;
   width: 65%;
   background-color: var(--White);
-  bottom:-4px;
-  left:12px;
+  bottom: -4px;
+  left: 12px;
   right: 0;
 }
 
@@ -96,8 +97,8 @@
   height: 2px;
   width: 70%;
   background-color: var(--White);
-  bottom:-4px;
-  left:6px;
+  bottom: -4px;
+  left: 6px;
   right: 0;
 }
 
@@ -107,8 +108,8 @@
   height: 2px;
   width: 65%;
   background-color: var(--White);
-  bottom:-4px;
-  left:11px;
+  bottom: -4px;
+  left: 11px;
   right: 0;
 }
 
@@ -118,8 +119,8 @@
   height: 2px;
   width: 65%;
   background-color: var(--White);
-  bottom:-4px;
-  left:11px;
+  bottom: -4px;
+  left: 11px;
   right: 0;
 }
 
@@ -132,7 +133,7 @@
   flex-direction: row;
   margin-top: 15px;
   margin-bottom: -5px;
-  position:relative;
+  position: relative;
 }
 
 .facebookContainer:hover,
@@ -149,7 +150,7 @@
   width: 16%;
   background-color: var(--White);
   bottom: -4px;
-  left:0;
+  left: 0;
   right: 0;
 }
 
@@ -160,8 +161,8 @@
   width: 16%;
   background-color: var(--White);
   bottom: -4px;
-  left:43px;
-  right:0;
+  left: 43px;
+  right: 0;
 }
 
 .pinterestContainer:hover::after {
@@ -171,8 +172,8 @@
   width: 16%;
   background-color: var(--White);
   bottom: -4px;
-  left:86px;
-  right:0;
+  left: 86px;
+  right: 0;
 }
 
 .instagramContainer:hover::after {
@@ -182,10 +183,49 @@
   width: 16%;
   background-color: var(--White);
   bottom: -4px;
-  left:129px;
-  right:0;
+  left: 129px;
+  right: 0;
 }
 
 .copyright {
   margin-top: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footerContainer {
+    width: 99vw;
+  }
+  .rightFooter {
+    padding: 3vw;
+  }
+  .leftFooter {
+    padding: 3vw;
+  }
+  .socialMediaLinkContainer{
+    width: 30%
+  }
+  .facebookContainer:hover::after {;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+  }
+
+  .twitterContainer:hover::after {
+    bottom: -4px;
+    left: 41px;
+    right: 0;
+  }
+
+  .pinterestContainer:hover::after {
+    bottom: -4px;
+    left: 81px;
+    right: 0;
+  }
+
+  .instagramContainer:hover::after {
+    bottom: -4px;
+    left: 122px;
+    right: 0;
+  }
+
 }
