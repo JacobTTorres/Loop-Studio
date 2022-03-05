@@ -24,5 +24,7 @@
   .headerContent{
     margin: 1rem 0 5rem 6.5rem
   }
-
+  .header{
+    font-size: 6.5vw
+  }
 }

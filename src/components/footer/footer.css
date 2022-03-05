@@ -201,8 +201,11 @@
   .leftFooter {
     padding: 3vw;
   }
+  .footerLinksContainer{
+    width:100%
+  }
   .socialMediaLinkContainer{
-    width: 30%
+    width: 40%
   }
   .facebookContainer:hover::after {;
     bottom: -4px;
