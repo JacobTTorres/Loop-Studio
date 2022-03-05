@@ -21,10 +21,28 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .headerContent{
-    margin: 1rem 0 5rem 6.5rem
+  .headerContent {
+    margin: 1rem 0 5rem 6.5rem;
   }
-  .header{
-    font-size: 6.5vw
+  .header {
+    font-size: 6.5vw;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px
+  }
+  .headerContent {
+    margin: 0 0 0 0;
+    width: 45%;
+    padding: 22.5px 112.5px 22.5px 18.75px
+  }
+  .header {
+    line-height: 2rem;
+    font-size: 2.25rem;
   }
 }

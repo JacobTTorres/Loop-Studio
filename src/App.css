@@ -42,3 +42,14 @@
     width: 100%
   }
 }
+
+@media only screen and (max-width: 810px) {
+  .appHeader{
+    background:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/mobile/image-hero.jpg");
+   background-size: cover;
+   background-position: 50% 10%;
+   background-repeat: no-repeat;
+   padding-bottom: 40vw
+   ; margin-bottom: 100px
+  }
+}
