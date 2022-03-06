@@ -43,7 +43,23 @@
   letter-spacing: 4px;
 }
 
-.creationButton:hover {
+.mobileButtonContainer {
+  width: 50%;
+}
+
+.creationMobileButton {
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+  background: none;
+  border: 2px solid var(--veryDarkGray);
+  font-size: 15px;
+  font-family: var(--Alata);
+  letter-spacing: 4px;
+}
+
+.creationButton:hover,
+.creationMobileButton:hover {
   background-color: var(--black);
   color: var(--White);
   cursor: pointer;
@@ -206,8 +222,8 @@
     margin-bottom: 20px;
     padding: 0px 0px 20px 20px;
   }
-  .galloryHeader{
-    width: 50%
+  .galloryHeader {
+    width: 50%;
   }
   .galloryImgEarth {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
@@ -217,7 +233,7 @@
   }
 
   .galloryImgArcade {
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
       url("../../images/mobile/image-night-arcade.jpg");
     background-repeat: no-repeat;
     background-size: cover;

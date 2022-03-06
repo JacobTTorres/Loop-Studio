@@ -117,6 +117,7 @@
   .navbarContent {
     width: 80%;
     padding: 3vw;
+    justify-content: space-between;
   }
   .navLinks {
     width: 45%;
@@ -131,10 +132,30 @@
     padding: 11vw 3vw 20vw 7vw;
   }
   .headerLogo {
-    width: 65vw;
-    margin-bottom: 70px
+    width: 100%;
+    margin-bottom: 70px;
   }
-  .navLinks {
+  .navbarLinkAbout,
+  .navbarLinkCareers,
+  .navbarLinkEvents,
+  .navbarLinkProducts,
+  .navbarLinkSupport {
+    display: none;
+  }
+  .menuContainer {
+    margin-bottom: 67px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menuContent {
+    background: none;
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 810px) {
+  .menuContainer {
     display: none;
   }
 }

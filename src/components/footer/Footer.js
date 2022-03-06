@@ -31,8 +31,10 @@ export default function Footer() {
             <div className="pinterestContainer">
               <img className="pinterest" src={Pintrest} alt="pinterest" />
             </div>
-            <div className="instagramContainer"><img className="instagram" src={Instagram} alt="instagram" />
-          </div></div>
+            <div className="instagramContainer">
+              <img className="instagram" src={Instagram} alt="instagram" />
+            </div>
+          </div>
           <p className="copyright">© 2021 Loopstudios. All rights reserved.</p>
         </div>
       </div>

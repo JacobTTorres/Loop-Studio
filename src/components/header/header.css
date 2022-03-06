@@ -34,12 +34,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 180px
+    margin-bottom: 180px;
   }
   .headerContent {
     margin: 0 0 0 0;
     width: 45%;
-    padding: 22.5px 112.5px 22.5px 18.75px
+    padding: 22.5px 112.5px 22.5px 18.75px;
   }
   .header {
     line-height: 2rem;
