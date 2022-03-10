@@ -1,14 +1,14 @@
 .dropdownContent {
-  width: 100vw;
-  height: 200vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: var(--black);
   position: absolute;
-  left: -252px;
-  top: -45px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .dropdownHeader {
@@ -35,23 +35,3 @@
   margin: 10px;
 }
 
-@media only screen and (min-width: 376px) {
-  .dropdownContent {
-    left: -276px;
-    top: -46px;
-  }
-}
-
-@media only screen and (min-width: 390px) {
-  .dropdownContent {
-    left: -262px;
-    top: -46px;
-  }
-}
-
-@media only screen and (min-width: 412px) {
-  .dropdownContent {
-    left: -277px;
-    top: -47px;
-  }
-}

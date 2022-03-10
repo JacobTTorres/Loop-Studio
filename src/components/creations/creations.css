@@ -188,6 +188,10 @@
 }
 
 @media only screen and (max-width: 810px) {
+  .creationGallory{
+    width: 100%;
+  }
+
   .creationHeaderContainer {
     display: flex;
     justify-content: center;
@@ -207,6 +211,7 @@
   .topGallory {
     flex-direction: column;
     width: 100%;
+    margin:0
   }
   .galloryImgEarth,
   .galloryImgArcade,

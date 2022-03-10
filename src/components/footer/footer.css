@@ -228,11 +228,16 @@
   .footerContent {
     flex-direction: column;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .leftFooter,
   .rightFooter {
     align-items: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
   .rightFooter {
     margin-bottom: 60px;
